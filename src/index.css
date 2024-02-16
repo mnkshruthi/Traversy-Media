@@ -1,13 +1,22 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.expense-title {
+  margin-left: -50%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.usaii-header-image {
+  background-image: url("https://ik.imagekit.io/edtechdigit/usaii/content/images/caitl-banner.png");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+.usaii-image {
+  width: 350px;
+  height: 60px;
+}
+.usaii-font {
+  font-size: 13px;
+}
+/* youtube */

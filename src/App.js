@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+// import Expenses from "./Components/Expenses/Expenses";
+// import Navbar from "./Components/Usaii/Navbar";
+import YouTubeHero from "./YouTube/YouTubeHero";
+import YouTubeNavBar from "./YouTube/YouTubeNavBar";
 
 function App() {
+  const expenses = [
+    {
+      id: "e1",
+      title: "Car Insurance",
+      amount: 234.56,
+      date: new Date(2024 - 2 - 15),
+    },
+    {
+      id: "e2",
+      title: "Health Insurance",
+      amount: 334.56,
+      date: new Date(2024 - 2 - 15),
+    },
+    {
+      id: "e3",
+      title: "Rental Insurance",
+      amount: 434.56,
+      date: new Date(2024 - 2 - 15),
+    },
+    {
+      id: "e4",
+      title: "Home Insurance",
+      amount: 534.56,
+      date: new Date(2024 - 2 - 15),
+    },
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Navbar />
+      <Expenses expenses={expenses} /> */}
+      <YouTubeNavBar />
+      <YouTubeHero />
     </div>
   );
 }
