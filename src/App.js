@@ -1,5 +1,6 @@
 // import Expenses from "./Components/Expenses/Expenses";
 // import Navbar from "./Components/Usaii/Navbar";
+import YouTubeFeatures from "./YouTube/YouTubeFeatures";
 import YouTubeHero from "./YouTube/YouTubeHero";
 import YouTubeNavBar from "./YouTube/YouTubeNavBar";
 
@@ -36,6 +37,7 @@ function App() {
       <Expenses expenses={expenses} /> */}
       <YouTubeNavBar />
       <YouTubeHero />
+      <YouTubeFeatures />
     </div>
   );
 }
