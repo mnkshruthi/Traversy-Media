@@ -1,7 +1,7 @@
 import React from "react";
 import orange from "../Images/illustration-intro.svg";
 
-export default function YouTubeHero() {
+export default function Hero() {
   return (
     <div>
       <section id="hero">

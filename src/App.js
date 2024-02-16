@@ -1,10 +1,10 @@
 // import Expenses from "./Components/Expenses/Expenses";
 // import Navbar from "./Components/Usaii/Navbar";
 import Cta from "./YouTube/Cta";
-import YouTubeFeatures from "./YouTube/YouTubeFeatures";
-import YouTubeHero from "./YouTube/YouTubeHero";
-import YouTubeNavBar from "./YouTube/YouTubeNavBar";
-import YouTubeTestimonials from "./YouTube/YouTubeTestimonials";
+import Features from "./YouTube/Features";
+import Hero from "./YouTube/Hero";
+import NavBar from "./YouTube/NavBar";
+import Testimonials from "./YouTube/Testimonials";
 
 function App() {
   const expenses = [
@@ -37,10 +37,10 @@ function App() {
     <div>
       {/* <Navbar />
       <Expenses expenses={expenses} /> */}
-      <YouTubeNavBar />
-      <YouTubeHero />
-      <YouTubeFeatures />
-      <YouTubeTestimonials />
+      <NavBar />
+      <Hero />
+      <Features />
+      <Testimonials />
       <Cta />
     </div>
   );
