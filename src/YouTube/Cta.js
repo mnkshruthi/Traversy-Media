@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function YouTubeCta() {
+export default function Cta() {
   return (
     <div className="bg-brightRed">
       <div className="container flex flex-col items-center px-6 py-24  space-y-12 mt-28 p-16 md:py-12 md:space-y-0 md:flex-row">
