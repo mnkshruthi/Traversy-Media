@@ -3,7 +3,7 @@ import anisha from "../Images/avatar-anisha.png";
 import richard from "../Images/avatar-richard.png";
 import shanai from "../Images/avatar-shanai.png";
 
-export default function YouTubeTestimonials() {
+export default function Testimonials() {
   return (
     <div>
       {/* Contianer to headng tand teatimonial block */}

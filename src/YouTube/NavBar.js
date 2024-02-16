@@ -1,8 +1,7 @@
 import React from "react";
 import logo from "../Images/logo.svg";
-import orange from "../Images/illustration-intro.svg";
 
-export default function YouTubeNavBar() {
+export default function NavBar() {
   return (
     <div>
       {/* Refer  */}
@@ -43,7 +42,6 @@ export default function YouTubeNavBar() {
           </div>
         </div>
       </nav>
-      {/* Hero section */}
     </div>
   );
 }
