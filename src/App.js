@@ -3,6 +3,7 @@
 import YouTubeFeatures from "./YouTube/YouTubeFeatures";
 import YouTubeHero from "./YouTube/YouTubeHero";
 import YouTubeNavBar from "./YouTube/YouTubeNavBar";
+import YouTubeTestimonials from "./YouTube/YouTubeTestimonials";
 
 function App() {
   const expenses = [
@@ -38,6 +39,7 @@ function App() {
       <YouTubeNavBar />
       <YouTubeHero />
       <YouTubeFeatures />
+      <YouTubeTestimonials />
     </div>
   );
 }
