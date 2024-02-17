@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Cta() {
   return (
-    <div className="bg-brightRed">
+    <section id="cta" className="bg-brightRed">
       <div className="container flex flex-col items-center px-6 py-24  space-y-12 mt-28 p-16 md:py-12 md:space-y-0 md:flex-row">
         <h2 className="font-bold m-auto text-white text-5xl leading-tight text-center md:text-4xl md:max-w-xl md:text-left">
           Simply how your team works today
@@ -14,6 +14,6 @@ export default function Cta() {
           Get Started
         </button>
       </div>
-    </div>
+    </section>
   );
 }
